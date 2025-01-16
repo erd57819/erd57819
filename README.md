@@ -1,13 +1,13 @@
-#### 👋 introduce
+## 👋 introduce
 ----------
 hi
 
-#### 📞contact
+## 📞contact
 -------------------
 - e-mail:erd57189@gmail.com
 - Git Hub:https://github.com/erd57819
 
-#### 🪧skill
+## 🪧skill
 ---------------
 <table align="center" style="width: 100%;">
 <tr>
@@ -17,7 +17,6 @@ hi
 <tr>
 <td>사용언어</td>
 <td style="text-align: left;">
-<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>
 </td>
