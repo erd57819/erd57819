@@ -1,13 +1,8 @@
-# 김태영
---------------
-## 전공
-- 생물학과
---------------
-# 사용언어
-1. JavaScript
-2. Python
------------------
-## 프레임워크
-1. React
-2. node js
-3. fast api
+# 🖐소개말
+---
+김태영입니다
+
+# 📞contact
+---
+- e-mail:erd57189@gmail.com
+- Git Hub:https://github.com/erd57819
