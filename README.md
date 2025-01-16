@@ -1,14 +1,11 @@
 ## 👋 introduce
-----------
 hi i'm teayong kim
 
 ## 📞contact
--------------------
 - e-mail:erd57189@gmail.com
 - Git Hub:https://github.com/erd57819
 
 ## 🪧skill
----------------
 <table align="center" style="width: 100%;">
 <tr>
 <th style="width: 20%;">구분</th>
