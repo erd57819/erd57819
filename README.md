@@ -1,6 +1,6 @@
 ## 👋 introduce
 ----------
-hi
+hi i'm teayong kim
 
 ## 📞contact
 -------------------
