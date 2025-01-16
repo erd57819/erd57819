@@ -38,7 +38,6 @@ hi i'm teayong kim
 <tr>
 <td>서버환경</td>
 <td style="text-align: left;">
-<img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
 </td>
 </tr>
@@ -46,6 +45,7 @@ hi i'm teayong kim
 <td>데이터베이스</td>
 <td style="text-align: left;">
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
 </td>
 </tr>
 <tr>
