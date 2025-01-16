@@ -2,8 +2,8 @@
 hi i'm teayong kim
 
 ## 📞contact
-- e-mail:erd57189@gmail.com
-- Git Hub:https://github.com/erd57819
+- e-mail : erd57189@gmail.com
+- Git Hub : https://github.com/erd57819
 
 ## 🪧skill
 <table align="center" style="width: 100%;">
@@ -59,9 +59,9 @@ hi i'm teayong kim
 
 ## project 
 ### 1. LLM을 활용한 키워드 기반 뉴스 기사 검색 및 리포트 자동화
-- 개발기간:(2024.10.14-2024.11.15)
-- 개발인원:6명
-- 프로젝트: open ai를 활용한 뉴스기사 요약과 레포트 생성 서비스입니다. 
-- 역할: node.js와 fastapi를 활용한 서버 구성과 모델링 연결 기능 구현
-- 링크:https://github.com/erd57819/Cu-Link
+- 개발기간 : (2024.10.14-2024.11.15)
+- 개발인원 : 6명
+- 프로젝트 : open ai를 활용한 뉴스기사 요약과 레포트 생성 서비스입니다. 
+- 역할 : node.js와 fastapi를 활용한 서버 구성과 모델링 연결 기능 구현
+- 링크 :https://github.com/erd57819/Cu-Link
 
