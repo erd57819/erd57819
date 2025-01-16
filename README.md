@@ -27,6 +27,7 @@ hi i'm teayong kim
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
 <img src="https://img.shields.io/badge/nodedotjs-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=black">
 <img src="https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=black">
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=black">
 </td>
 </tr>
 <tr>
@@ -39,6 +40,7 @@ hi i'm teayong kim
 <td>서버환경</td>
 <td style="text-align: left;">
 <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
+  <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=Amazon docker&logoColor=white">
 </td>
 </tr>
 <tr>
