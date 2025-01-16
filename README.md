@@ -56,4 +56,10 @@ hi i'm teayong kim
 </td>
 </tr>
 </table>
+## project LLM을 활용한 키워드 기반 뉴스 기사 검색 및 리포트 자동화
+1. 개발기간:(2024.10.14-2024.11.15)
+2. 개발인원:6명
+3. 프로젝트: open ai를 활용한 뉴스기사 요약과 레포트 생성 서비스입니다. 
+4. 역할: node.js와 fastapi를 활용한 서버 구성과 모델링 연결 기능 구현
+5. 링크:<src: https://github.com/erd57819/Cu-Link >
 
