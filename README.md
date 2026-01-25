@@ -54,6 +54,11 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 **담당 역할**: Backend (AI 연동, 실시간 통신)
 
+**핵심 구현**
+- **Dual Backend 아키텍처**: Spring Boot(비즈니스 로직) + FastAPI(AI 처리) 역할 분리로 확장성 확보
+- **실시간 감정 분석**: WebRTC 화상통화 중 Face-API.js로 표정 분석, Google Cloud NLP로 음성 분석
+- **AI 중재 시스템**: GPT-4/Claude 기반 갈등 상황 분석 및 해결책 제시
+
 **기술 스택**: `Spring Boot` `FastAPI` `React` `GPT-4/Claude` `WebRTC` `Redis` `Kafka` `Docker`
 
 ---
