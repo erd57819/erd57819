@@ -47,24 +47,9 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ### 📂 Projects
 
-#### 1. Dochi (참견도치) - AI 갈등 해결 서비스
+#### 1. Yammy - 야구 팬 올인원 플랫폼 `2025.10 ~ 2025.11`
 
-**GitHub**: [Dochi](https://github.com/erd57819/Dochi) 
-
-**담당 역할**: Backend (AI 연동, 실시간 통신)
-
-**핵심 구현**
-- **Dual Backend 아키텍처**: Spring Boot(비즈니스 로직) + FastAPI(AI 처리) 역할 분리로 확장성 확보
-- **실시간 감정 분석**: WebRTC 화상통화 중 Face-API.js로 표정 분석, Google Cloud NLP로 음성 분석
-- **AI 중재 시스템**: GPT-4/Claude 기반 갈등 상황 분석 및 해결책 제시
-
-**기술 스택**: `Spring Boot` `FastAPI` `React` `GPT-4/Claude` `WebRTC` `Redis` `Kafka` `Docker`
-
----
-
-#### 2. Yammy - 야구 팬 올인원 플랫폼
-
-**GitHub**: [Yammy](https://github.com/erd57819/Yammy) 
+**GitHub**: [Yammy](https://github.com/erd57819/Yammy)
 
 **담당 역할**: Backend (NFT 블록체인, 소셜 로그인, SNS 기능)
 
@@ -77,9 +62,9 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ---
 
-#### 3. LastDance - 블록체인 유언장 공증 서비스
+#### 2. LastDance - 블록체인 유언장 공증 서비스 `2025.09 ~ 2025.10`
 
-**GitHub**: [LastDance](https://github.com/erd57819/LastDance) 
+**GitHub**: [LastDance](https://github.com/erd57819/LastDance)
 
 **담당 역할**: Frontend (WebRTC 화상 공증, 결제 시스템, UI/UX)
 
@@ -92,9 +77,24 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ---
 
-#### 4. Cu-Link - LLM 뉴스 리포트 자동화 서비스
+#### 3. Dochi (참견도치) - AI 갈등 해결 서비스 `2025.07 ~ 2025.08`
 
-**GitHub**: [Cu-Link](https://github.com/erd57819/Cu-Link) 
+**GitHub**: [Dochi](https://github.com/erd57819/Dochi)
+
+**담당 역할**: Backend (AI 연동, 실시간 통신)
+
+**핵심 구현**
+- **Dual Backend 아키텍처**: Spring Boot(비즈니스 로직) + FastAPI(AI 처리) 역할 분리로 확장성 확보
+- **실시간 감정 분석**: WebRTC 화상통화 중 Face-API.js로 표정 분석, Google Cloud NLP로 음성 분석
+- **AI 중재 시스템**: GPT-4/Claude 기반 갈등 상황 분석 및 해결책 제시
+
+**기술 스택**: `Spring Boot` `FastAPI` `React` `GPT-4/Claude` `WebRTC` `Redis` `Kafka` `Docker`
+
+---
+
+#### 4. Cu-Link - LLM 뉴스 리포트 자동화 서비스 `2024.10 ~ 2025.07`
+
+**GitHub**: [Cu-Link](https://github.com/erd57819/Cu-Link)
 
 **담당 역할**: Fullstack (AI 요약, 세션 관리, 기사 CRUD)
 
