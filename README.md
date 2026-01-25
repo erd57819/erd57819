@@ -123,10 +123,3 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **DevOps & Infra**
 - Docker, Jenkins CI/CD, AWS EC2/S3
 - Nginx, GitLab CI/CD
-
----
-
-### 📫 Contact
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/erd57819)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:erd57819@gmail.com)
