@@ -125,13 +125,6 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ---
 
-### 📊 GitHub Stats
-
-![erd57819's GitHub stats](https://github-readme-stats.vercel.app/api?username=erd57819&show_icons=true&theme=default)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erd57819&layout=compact)
-
----
 
 ### 💡 핵심 역량
 
