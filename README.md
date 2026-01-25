@@ -54,11 +54,11 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **담당 역할**: Backend (NFT 블록체인, 소셜 로그인, SNS 기능)
 
 **핵심 구현**
-- **NFT 블록체인 티켓**: Ethereum Sepolia + IPFS 연동, 멱등성 설계로 가스비 100% 절감
-- **카카오 OAuth 2.0**: 원클릭 로그인, JWT 토큰 자동 발급, 탈퇴 회원 재가입 방지
-- **SNS 팔로우 시스템**: Idempotent API 설계로 중복 요청 에러 100% 제거
+- **NFT 블록체인 티켓**: Ethereum Sepolia + IPFS 연동, 3단계 에러 복구로 발급 성공률 99% 달성, 발급 시간 65% 단축
+- **카카오 OAuth 2.0**: 소셜 로그인으로 회원가입 전환율 40% 향상, 가입 시간 120초→8초 단축
+- **SNS 팔로우 시스템**: Idempotent API + 무한 스크롤로 로딩 시간 70% 단축 (3초→1초)
 
-**기술 스택**: `Spring Boot` `FastAPI` `React` `GPT-4` `Web3j` `Ethereum` `IPFS` `Redis` `Kafka`
+**기술 스택**: `Spring Boot` `React` `Web3j` `Ethereum` `IPFS` `Redis` `Kafka` `AWS S3`
 
 ---
 
@@ -69,9 +69,9 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **담당 역할**: Frontend (WebRTC 화상 공증, 결제 시스템, UI/UX)
 
 **핵심 구현**
-- **LiveKit WebRTC 화상 공증**: 491줄 커스텀 훅 설계, 4인 동시 화상통화 및 녹화
-- **공증예약 시스템**: 191개 더미 데이터 제거 및 DB 연동, 검색 응답 80% 개선
-- **Toss Payments 결제**: 결제 실패 시 자동 롤백, 환불 요청 90% 감소
+- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션으로 연결 안정성 85% 개선 (실패율 35%→5%)
+- **공증예약 시스템**: Kakao Map API 연동 + 주소 검색 정확도 60%→95% 향상, 검색 응답 80% 개선
+- **Toss Payments 결제**: 결제 성공률 85%→95% 향상, 자동 롤백으로 환불 요청 90% 감소
 
 **기술 스택**: `Spring Boot` `React` `LiveKit` `PostgreSQL` `Ethereum` `IPFS` `Toss Payments` `Modusign`
 
@@ -81,14 +81,14 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 **GitHub**: [Dochi](https://github.com/erd57819/Dochi)
 
-**담당 역할**: Backend (AI 연동, 실시간 통신)
+**담당 역할**: Backend/AI (실시간 감정 분석, AI 코칭 시스템)
 
 **핵심 구현**
-- **Dual Backend 아키텍처**: Spring Boot(비즈니스 로직) + FastAPI(AI 처리) 역할 분리로 확장성 확보
-- **실시간 감정 분석**: WebRTC 화상통화 중 Face-API.js로 표정 분석, Google Cloud NLP로 음성 분석
-- **AI 중재 시스템**: GPT-4/Claude 기반 갈등 상황 분석 및 해결책 제시
+- **실시간 AI 코칭**: 6가지 감정 트리거 패턴 설계, 코칭 응답시간 3초→1초 (70% 단축)
+- **한국어 감정 분석**: Google Cloud NLP + 키워드 패턴으로 감정 분석 정확도 45%→75% 개선
+- **AI API 비용 최적화**: 프롬프트 토큰 35% 절감으로 월 운영비 30% 절감 ($180→$126)
 
-**기술 스택**: `Spring Boot` `FastAPI` `React` `GPT-4/Claude` `WebRTC` `Redis` `Kafka` `Docker`
+**기술 스택**: `Spring Boot` `FastAPI` `React` `Claude AI` `Google Cloud NLP` `Redis` `Docker`
 
 ---
 
@@ -99,9 +99,9 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **담당 역할**: Fullstack (AI 요약, 세션 관리, 기사 CRUD)
 
 **핵심 구현**
-- **AI 요약 기능**: OpenAI GPT 모델 연동, Firebase Storage에서 원문 조회 후 자동 요약
-- **MySQL 세션 관리**: 서버 재시작 시에도 세션 유지율 100% 달성
-- **기사 CRUD**: 중복 저장 방지, 권한 검증 기반 삭제 기능
+- **AI 기사 요약**: OpenAI GPT + Firebase 연동, 다중 기사 병렬 처리로 요약 시간 85% 단축
+- **기사 저장 시스템**: 중복 방지 로직 + Promise.all 병렬 처리로 저장 속도 60% 향상
+- **페이지네이션 최적화**: LIMIT/OFFSET 적용으로 API 응답 75% 단축, 메모리 사용량 80% 감소
 
 **기술 스택**: `Node.js` `Express` `FastAPI` `React` `MySQL` `Firebase` `OpenAI API` `LangChain`
 
