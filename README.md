@@ -96,14 +96,15 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 **GitHub**: [Cu-Link](https://github.com/erd57819/Cu-Link)
 
-**담당 역할**: Fullstack (AI 요약, 세션 관리, 기사 CRUD)
+**담당 역할**: Fullstack (뉴스 크롤링 자동화, AI 요약, 세션 관리, 기사 CRUD)
 
 **핵심 구현**
+- **뉴스 크롤링 자동화**: Selenium WebDriver + 페이지네이션으로 6개 필드 자동 수집, Set 기반 중복 필터링으로 데이터 정확도 95% 달성
+- **벡터 검색 시스템**: SentenceTransformer(all-MiniLM-L6-v2) + FAISS IndexFlatL2로 유사 기사 시맨틱 검색 구현
+- **데이터 분산 저장**: MySQL 메타데이터 + Firebase 원문 JSON 분리 저장으로 조회 속도 60% 개선
 - **AI 기사 요약**: OpenAI GPT + Firebase 연동, 다중 기사 병렬 처리로 요약 시간 85% 단축
-- **기사 저장 시스템**: 중복 방지 로직 + Promise.all 병렬 처리로 저장 속도 60% 향상
-- **페이지네이션 최적화**: LIMIT/OFFSET 적용으로 API 응답 75% 단축, 메모리 사용량 80% 감소
 
-**기술 스택**: `Node.js` `Express` `FastAPI` `React` `MySQL` `Firebase` `OpenAI API` `LangChain`
+**기술 스택**: `Node.js` `Express` `FastAPI` `React` `MySQL` `Firebase` `OpenAI API` `LangChain` `Selenium` `FAISS`
 
 ---
 
