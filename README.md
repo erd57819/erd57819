@@ -2,7 +2,7 @@
 
 Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통신 기술을 활용한 다양한 프로젝트 경험이 있습니다.
 
-📧 **Email**: erd57819@gmail.com
+**Email**: erd57819@gmail.com
 
 ---
 
@@ -121,7 +121,3 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 - React, Zustand 상태 관리
 - WebRTC (LiveKit), 무한 스크롤
 - 반응형 디자인, Protected Routes
-
-**DevOps & Infra**
-- Docker, Jenkins CI/CD, AWS EC2/S3
-- Nginx, GitLab CI/CD
