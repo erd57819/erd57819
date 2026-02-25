@@ -6,7 +6,7 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ---
 
-###  Tech Stack
+### Tech Stack
 
 **Backend**
 
@@ -40,12 +40,13 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **Blockchain & AI**
 
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Web3j](https://img.shields.io/badge/Web3j-F16822?style=flat-square&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
 ---
 
-###  Projects
+### Projects
 
 #### 1. Yammy - 야구 팬 올인원 플랫폼 `2025.10 ~ 2025.11`
 
@@ -69,8 +70,9 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **담당 역할**: Frontend (WebRTC 화상 공증, 결제 시스템, UI/UX)
 
 **핵심 구현**
-- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션으로 연결 안정성  개선 
-- **공증예약 시스템**: Kakao Map API 연동 + 주소 검색 정확도 60%→95% 향상, 검색 응답 80% 개선
+- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션으로 연결 실패율 35%→5% (86% 개선), 라이선스 비용 100% 절감
+- **공증예약 시스템**: Kakao Map API 연동 + 주소 검색 정확도 60%→95% 향상, 검색 응답 1.5초→0.3초 (80% 개선)
+- **Toss Payments 결제**: 결제 승인 성공률 85%→98% 향상, 결제 프로세스 이탈율 35%→12% (66% 감소)
 
 **기술 스택**: `Spring Boot` `React` `LiveKit` `PostgreSQL` `Ethereum` `IPFS` `Toss Payments` `Modusign`
 
@@ -84,7 +86,7 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 **핵심 구현**
 - **실시간 AI 코칭**: 6가지 감정 트리거 패턴 설계, 코칭 응답시간 3초→1초로 개선
-- **한국어 감정 분석**: Google Cloud NLP + 키워드 패턴으로 감정 분석 정확도 향상
+- **한국어 감정 분석**: Google Cloud NLP + 키워드 패턴으로 감정 분류 정확도 45%→73% (28%p 향상), 간접 표현 인식 정확도 85% 달성
 
 **기술 스택**: `Spring Boot` `FastAPI` `React` `Claude AI` `Google Cloud NLP` `Redis` `Docker`
 
@@ -107,11 +109,11 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 ---
 
 
-###  핵심 역량
+### 핵심 역량
 
 **Backend**
 - Spring Boot, JPA/QueryDSL, Spring Security, JWT 인증
-- Web3j, Ethereum, 스마트 컨트랙트 연동
+- Solidity (ERC-721), Web3j, Ethereum 스마트 컨트랙트 설계 및 연동
 - IPFS (Pinata), OAuth 2.0 소셜 로그인
 - Redis 캐싱, Kafka 메시지 큐
 
