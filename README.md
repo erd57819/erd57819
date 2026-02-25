@@ -6,7 +6,7 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ---
 
-### 🛠 Tech Stack
+###  Tech Stack
 
 **Backend**
 
