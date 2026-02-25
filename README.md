@@ -45,7 +45,7 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 ---
 
-### 📂 Projects
+###  Projects
 
 #### 1. Yammy - 야구 팬 올인원 플랫폼 `2025.10 ~ 2025.11`
 
@@ -109,7 +109,7 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 ---
 
 
-### 💡 핵심 역량
+###  핵심 역량
 
 **Backend**
 - Spring Boot, JPA/QueryDSL, Spring Security, JWT 인증
