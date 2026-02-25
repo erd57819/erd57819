@@ -69,9 +69,8 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **담당 역할**: Frontend (WebRTC 화상 공증, 결제 시스템, UI/UX)
 
 **핵심 구현**
-- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션으로 연결 안정성 85% 개선 (실패율 35%→5%)
+- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션으로 연결 안정성  개선 
 - **공증예약 시스템**: Kakao Map API 연동 + 주소 검색 정확도 60%→95% 향상, 검색 응답 80% 개선
-- **Toss Payments 결제**: 결제 성공률 85%→95% 향상, 자동 롤백으로 환불 요청 90% 감소
 
 **기술 스택**: `Spring Boot` `React` `LiveKit` `PostgreSQL` `Ethereum` `IPFS` `Toss Payments` `Modusign`
 
@@ -84,9 +83,8 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 **담당 역할**: Backend/AI (실시간 감정 분석, AI 코칭 시스템)
 
 **핵심 구현**
-- **실시간 AI 코칭**: 6가지 감정 트리거 패턴 설계, 코칭 응답시간 3초→1초 (70% 단축)
-- **한국어 감정 분석**: Google Cloud NLP + 키워드 패턴으로 감정 분석 정확도 45%→75% 개선
-- **AI API 비용 최적화**: 프롬프트 토큰 35% 절감으로 월 운영비 30% 절감 ($180→$126)
+- **실시간 AI 코칭**: 6가지 감정 트리거 패턴 설계, 코칭 응답시간 3초→1초로 개선
+- **한국어 감정 분석**: Google Cloud NLP + 키워드 패턴으로 감정 분석 정확도 향상
 
 **기술 스택**: `Spring Boot` `FastAPI` `React` `Claude AI` `Google Cloud NLP` `Redis` `Docker`
 
