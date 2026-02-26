@@ -52,12 +52,12 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 **GitHub**: [Yammy](https://github.com/erd57819/Yammy)
 
-**담당 역할**: Backend (NFT 블록체인, 소셜 로그인, SNS 기능) + Frontend (경기 결과 페이지)
+**담당 역할**: Backend (NFT 블록체인, 소셜 로그인) + Frontend (경기 결과 페이지)
 
 **핵심 구현**
 - **ERC-721 스마트 컨트랙트**: Solidity `YammyTicketNFT.sol` 직접 작성 (`mintTicket` / `batchMintTickets` / `burnTicket`), `ticketIdToTokenId` + `tokenIdToTicketId` 양방향 매핑으로 O(1) 조회, `require(ticketIdToTokenId[ticketId] == 0)` 온체인 중복 발급 방지, Hardhat optimizer(runs: 200) + Sepolia 배포 자동화
 - **NFT 발급 서비스**: Spring Boot `NftService` 사용자 검증 강화 + 3단계 에러 복구로 발급 성공률 99% 달성, 발급 시간 65% 단축, 중복 발급 요청 Idempotent 처리
-- **야구 데이터 파이프라인**: Python 300줄 CSV 야구 통계 데이터 DB 일괄 삽입 스크립트, `MatchResultPage` + `MatchList` 컴포넌트 신규 구현(1,054줄) — 날짜 검색 + 팀 대 팀 스코어보드 UI
+- **야구 데이터 파이프라인**: Python CSV 야구 통계 데이터 DB 일괄 삽입 자동화 스크립트, `MatchResultPage` + `MatchList` 컴포넌트 신규 구현 — 날짜별 경기 검색·팀 대 팀 스코어보드 UI·경기 상세 API 연동
 
 **기술 스택**: `Spring Boot` `React` `Solidity` `Hardhat` `Web3j` `Ethereum` `IPFS` `Redis` `Kafka` `AWS S3`
 
@@ -67,10 +67,10 @@ Java/Spring Boot 기반 백엔드 개발자로, AI, 블록체인, 실시간 통�
 
 **GitHub**: [LastDance](https://github.com/erd57819/LastDance)
 
-**담당 역할**: Frontend 전체 (WebRTC 화상 공증, 결제, 회원 인증, 전자문서, UI/UX)
+**담당 역할**: Frontend (WebRTC 화상 공증, 결제, 전자문서, UI/UX)
 
 **핵심 구현**
-- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션, 491줄 `useLiveKitWebRTC` 커스텀 훅 설계 (Exponential Backoff 재연결 최대 5회, 브라우저 Autoplay Policy 해결 위해 `<audio>` DOM 동적 생성), 연결 실패율 35%→5% (86% 개선), 라이선스 비용 100% 절감
+- **LiveKit WebRTC 화상 공증**: OpenVidu→LiveKit 마이그레이션, `useLiveKitWebRTC` 커스텀 훅 설계 (Exponential Backoff 재연결 최대 5회, 브라우저 Autoplay Policy 해결 위해 `<audio>` DOM 동적 생성), 연결 실패율 35%→5% (86% 개선), 라이선스 비용 100% 절감
 - **Toss Payments 결제**: 유언장 자산 합계로 결제 금액 자동 산출, 결제 실패 시 자동 롤백 + 중복 결제 방지 로직 구현, 결제 승인 성공률 85%→98%, 이탈율 35%→12% (66% 감소)
 - **전자문서 무결성 보장**: Modusign 전자서명 API 연동, 예약 데이터 로딩 후 `readOnly` 조건부 적용으로 공증 데이터 임의 수정 방지, 블록체인 트랜잭션 해시·IPFS CID UI 시각화
 
